@@ -1,2 +1,1 @@
-# GOC
-# Projects
+# GOC Projects

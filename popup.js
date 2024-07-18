@@ -1,4 +1,4 @@
-document.querySelector('#go-to-options').addEventListener('click', function () {
+document.querySelector('#options').addEventListener('click', function () {
     if (chrome.runtime.openOptionsPage) {
         chrome.runtime.openOptionsPage();
     } else {

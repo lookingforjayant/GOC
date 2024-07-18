@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension User Options</title>
+    <link rel="stylesheet" href="./options.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="divForm">
+            <label for="element" class="formLabel">Element:</label>
+            <select id="element" name="element" class="formItem">
+                <option value="0"></option>
+                <option value="1">a</option>
+                <option value="2">button</option>
+                <option value="3">img</option>
+            </select>
+            <label for="attribute" class="formLabel">Attribute</label>
+            <select id="attribute" name="attribute" class="formItem">
+                <option value="0"></option>
+                <option value="1">href</option>
+                <option value="2">alt</option>
+                <option value="3">target</option>
+            </select>
+            <label for="rule" class="formLabel">Rule</label>
+            <select id="rule" name="attribute" class="ruleItem">
+                <option value="0"></option>
+                <option value="1">Should not be empty</option>
+                <option value="2">Shoudl contains https://</option>
+                <option value="3">Should not be blank</option>
+            </select>
+            <div id="status" class="formItem"></div>
+            <button id="save" class="formItem">Save</button>
+        </div>
+    </div>
+    <script src="./options.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.divForm {
+    margin-top: 50px;
+    min-height: 50vh;
+    width: 50%;
+    border: solid black 1px;
+}
+
+select {
+    width: 100px;
+}
+
+.formLabel {
+    margin: 20px 0px 0px 10px;
+}
+
+.formItem {
+    margin: 20px 0px 0px 10px;
+}
+
+.ruleItem {
+    width: 200px;
+}
